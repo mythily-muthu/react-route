@@ -1,0 +1,19 @@
+.flex {
+  display: flex;
+}
+.list {
+  background: rgb(124, 220, 124);
+  height: 10vh;
+  align-items: center;
+  list-style-type: none;
+}
+li {
+  padding: 10px;
+}
+.list > li {
+  margin-left: 20px;
+  cursor: pointer;
+}
+.list > li:hover {
+  background: rgb(34, 177, 74);
+}
